@@ -1,0 +1,60 @@
+body {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navul {
+	font-family: Kozuka Gothic Pro, Gothic, Helvetica, Georgia;
+	font-size: 13pt;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	padding-bottom: 45px;
+	float: left;
+}
+
+.navli {
+	display: inline;
+	padding-right: 40px;
+	padding-left: 10px;
+	border-left: 1px dotted #898989;
+}
+
+.navli:nth-child(1) {
+	border-left: none;
+}
+
+.navli a:link {
+	text-decoration: none;
+	color: #e68323;
+	text-transform: uppercase;
+}
+
+.navli a:visited {
+	text-decoration: none;
+	color: #e68323;
+	text-transform: uppercase;
+}
+
+#search {
+	padding-top: 30px;
+}
+
+input {
+	width: 235px;
+	height: 35px;
+	background: url('../imgs/magnifier_left.png') no-repeat 250px 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 35px;
+	padding-left:10px;
+	font-size: 14pt;
+	font-family: Kozuka Gothic Pro, Gothic, Helvetica, Georgia; 
+}
+
+#hero {
+	padding-top: 30px;
+}
+
